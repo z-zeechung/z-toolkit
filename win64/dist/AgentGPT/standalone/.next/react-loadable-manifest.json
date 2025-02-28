@@ -1,0 +1,38 @@
+{
+  "..\\..\\node_modules\\@splinetool\\runtime\\build\\runtime.js -> ./boolean.js": {
+    "id": 6669,
+    "files": [
+      "static/chunks/669.7a6704f9d83f8829.js"
+    ]
+  },
+  "..\\..\\node_modules\\@splinetool\\runtime\\build\\runtime.js -> ./navmesh.js": {
+    "id": 2275,
+    "files": [
+      "static/chunks/275.cd8ca46234179c5e.js"
+    ]
+  },
+  "..\\..\\node_modules\\@splinetool\\runtime\\build\\runtime.js -> ./opentype.js": {
+    "id": 856,
+    "files": [
+      "static/chunks/61905917.57dba6d682952bf4.js"
+    ]
+  },
+  "..\\..\\node_modules\\@splinetool\\runtime\\build\\runtime.js -> ./physics.js": {
+    "id": 330,
+    "files": [
+      "static/chunks/e39c296e.d9903bcbf25867fb.js"
+    ]
+  },
+  "..\\..\\node_modules\\@splinetool\\runtime\\build\\runtime.js -> ./process.js": {
+    "id": 6256,
+    "files": [
+      "static/chunks/256.77664515d2d1751f.js"
+    ]
+  },
+  "..\\components\\pdf\\PDFButton.tsx -> ./MyDocument": {
+    "id": 8347,
+    "files": [
+      "static/chunks/347.230bdaf7b019632b.js"
+    ]
+  }
+}

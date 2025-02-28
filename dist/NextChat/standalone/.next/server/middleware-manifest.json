@@ -1,0 +1,181 @@
+{
+  "sortedMiddleware": [],
+  "middleware": {},
+  "functions": {
+    "/api/upstash/[action]/[...key]/route": {
+      "files": [
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "prerender-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/edge-chunks/297.js",
+        "server/app/api/upstash/[action]/[...key]/route.js"
+      ],
+      "name": "app/api/upstash/[action]/[...key]/route",
+      "page": "/api/upstash/[action]/[...key]/route",
+      "matchers": [
+        {
+          "regexp": "^/api/upstash/(?<action>[^/]+?)/(?<key>.+?)$",
+          "originalSource": "/api/upstash/[action]/[...key]"
+        }
+      ],
+      "wasm": [],
+      "assets": []
+    },
+    "/api/config/route": {
+      "files": [
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "prerender-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/edge-chunks/297.js",
+        "server/edge-chunks/45.js",
+        "server/edge-chunks/579.js",
+        "server/app/api/config/route.js"
+      ],
+      "name": "app/api/config/route",
+      "page": "/api/config/route",
+      "matchers": [
+        {
+          "regexp": "^/api/config$",
+          "originalSource": "/api/config"
+        }
+      ],
+      "wasm": [],
+      "assets": []
+    },
+    "/api/webdav/[...path]/route": {
+      "files": [
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "prerender-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/edge-chunks/297.js",
+        "server/edge-chunks/45.js",
+        "server/edge-chunks/579.js",
+        "server/app/api/webdav/[...path]/route.js"
+      ],
+      "name": "app/api/webdav/[...path]/route",
+      "page": "/api/webdav/[...path]/route",
+      "matchers": [
+        {
+          "regexp": "^/api/webdav/(?<path>.+?)$",
+          "originalSource": "/api/webdav/[...path]"
+        }
+      ],
+      "wasm": [],
+      "assets": []
+    },
+    "/api/tencent/route": {
+      "files": [
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "prerender-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/edge-chunks/297.js",
+        "server/edge-chunks/45.js",
+        "server/edge-chunks/579.js",
+        "server/app/api/tencent/route.js"
+      ],
+      "name": "app/api/tencent/route",
+      "page": "/api/tencent/route",
+      "matchers": [
+        {
+          "regexp": "^/api/tencent$",
+          "originalSource": "/api/tencent"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "regions": [
+        "arn1",
+        "bom1",
+        "cdg1",
+        "cle1",
+        "cpt1",
+        "dub1",
+        "fra1",
+        "gru1",
+        "hnd1",
+        "iad1",
+        "icn1",
+        "kix1",
+        "lhr1",
+        "pdx1",
+        "sfo1",
+        "sin1",
+        "syd1"
+      ]
+    },
+    "/api/artifacts/route": {
+      "files": [
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "prerender-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/edge-chunks/297.js",
+        "server/edge-chunks/45.js",
+        "server/edge-chunks/579.js",
+        "server/app/api/artifacts/route.js"
+      ],
+      "name": "app/api/artifacts/route",
+      "page": "/api/artifacts/route",
+      "matchers": [
+        {
+          "regexp": "^/api/artifacts$",
+          "originalSource": "/api/artifacts"
+        }
+      ],
+      "wasm": [],
+      "assets": []
+    },
+    "/api/[provider]/[...path]/route": {
+      "files": [
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "prerender-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/edge-chunks/297.js",
+        "server/edge-chunks/45.js",
+        "server/edge-chunks/579.js",
+        "server/app/api/[provider]/[...path]/route.js"
+      ],
+      "name": "app/api/[provider]/[...path]/route",
+      "page": "/api/[provider]/[...path]/route",
+      "matchers": [
+        {
+          "regexp": "^/api/(?<provider>[^/]+?)/(?<path>.+?)$",
+          "originalSource": "/api/[provider]/[...path]"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "regions": [
+        "arn1",
+        "bom1",
+        "cdg1",
+        "cle1",
+        "cpt1",
+        "dub1",
+        "fra1",
+        "gru1",
+        "hnd1",
+        "iad1",
+        "icn1",
+        "kix1",
+        "lhr1",
+        "pdx1",
+        "sfo1",
+        "sin1",
+        "syd1"
+      ]
+    }
+  },
+  "version": 2
+}
