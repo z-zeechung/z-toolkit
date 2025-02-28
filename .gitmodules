@@ -1,0 +1,9 @@
+[submodule "AgentGPT"]
+	path = AgentGPT
+	url = https://github.com/reworkd/AgentGPT.git
+[submodule "gpt-researcher"]
+	path = gpt-researcher
+	url = https://github.com/assafelovic/gpt-researcher.git
+[submodule "NextChat"]
+	path = NextChat
+	url = https://github.com/ChatGPTNextWeb/NextChat.git
